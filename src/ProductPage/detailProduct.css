@@ -1,0 +1,78 @@
+.detailWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.DetailProduct{
+    width:50%;
+    height:400px;
+    border-radius: 10px;
+    border: 1px solid black; 
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    margin:20px;
+    padding: 0 50px;
+    min-width: 650px;
+}
+.detailProductImg{
+    width:300px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.detailProductInfo{
+    width:400px;
+    height:300px;
+    margin-left : 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+}
+.detailProductName{
+    font-size: 30px;
+    width:300px;
+    word-wrap: break-word;
+}
+.detailProductPrice{
+    font-size: 35px;
+    font-weight: bold;
+}
+.detailButtonWrap{  
+    display: flex; 
+    bottom: 10px;
+    position: absolute;
+    
+}
+.detailCartBtn, .detailBuyBtn{
+    width:150px;
+    height: 45px;
+    border:none;
+    border-radius: 5px;
+    margin:10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.detailCartBtn{
+    background-color: #3144F0;
+}
+.detailBuyBtn{
+    background-color: #595959;
+}
+.detailDescriptionWrap{
+    width:50%;
+    min-width: 650px;
+}
+.decriptionTitle{
+    font-size: 25px;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+.detailDescript{
+    font-size: 18px;
+    word-wrap: break-word;
+}
