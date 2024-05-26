@@ -19,7 +19,7 @@ export default function SearchProduct({searchName, toDetailPage}){
                             <div className="productPgName">{product.name}</div>
                             <div className="productPgPrice">{product.price}원</div>
                         </div>
-                    ))
+                    )) 
                 ) : (
                     <div className="NoResult">일치하는 상품이 없습니다.</div>
                 )}
