@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import Header from './components/Header';
+import Sidebar from './components/Sidebar';
+import MyPage from './pages/MyPage';
+import OrderHistory from './pages/OrderHistory';
+import OrderDetail from './pages/OrderDetail';
+import CancelReturn from './pages/CancelReturn';
+import EditProfile from './pages/EditProfile';
+import { OrderProvider } from './context/OrderContext';
+import './styles/App.css';
 
-function App() {
+
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <OrderProvider>
+    <Router>
+      
+      <div className="App">
+        <Header />
+        <Sidebar />
+
+
+          <Routes>
+            <Route path="/" element={<Navigate to="/mypage" />} />
+            <Route path="/mypage" element={<MyPage />} />
+            <Route path="/order-history" element={<OrderHistory />} />
+            <Route path="/order-detail" element={<OrderDetail />} />
+            <Route path="/cancel-return" element={<CancelReturn />} />
+            <Route path="/edit-profile" element={<EditProfile />} />
+          </Routes>
+       </div>
+      
+    </Router>
+    </OrderProvider>
   );
-}
+};
 
 export default App;
+
+
+
+
+
+
+

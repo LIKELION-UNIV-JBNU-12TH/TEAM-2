@@ -1,0 +1,33 @@
+/* App.css */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* 하단 스크롤바를 제거 */
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100%
+}
+
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+
+
+main {
+  flex-grow: 1;
+  padding: 20px;
+  margin-left: 250px; /* Sidebar의 넓이 (250px로 변경) */
+  padding-top: 120px; /* Header의 높이 */
+  box-sizing: border-box;
+  overflow-y: auto; /* 메인 콘텐츠 영역에서 스크롤이 필요할 경우 */
+}

@@ -1,0 +1,60 @@
+.my-page {
+  margin-left: 300px;
+  padding: 20px;
+  padding-top: 150px;
+}
+
+.my-page h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.order-history-wrapper {
+  margin-bottom: 40px;
+}
+
+.my-order-table {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.my-order-table th,
+.my-order-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.my-order-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.heart-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heart-item {
+  margin-right: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.heart-item img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.heart-item span {
+  display: block;
+  margin-top: 5px;
+}
+
+
+
+
+  

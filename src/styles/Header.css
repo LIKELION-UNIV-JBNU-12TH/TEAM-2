@@ -1,0 +1,131 @@
+/* 기본 설정 */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.Top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f8f8f8;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Top1Line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.logoBtn {
+  font-size: 24px;
+  font-weight: bold;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000; /* 텍스트 색상 지정 */
+}
+
+.searchWrap {
+  margin: 0 5%;
+  background-color: #D9D9D9;
+  width: 400px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  position: relative; 
+}
+
+.searchInput {
+  width: calc(100% - 40px); /* 버튼 너비 제외 */
+ 
+  height: 30px;
+  margin: 0 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #D9D9D9;
+  outline: none; 
+  color: #000; /* 텍스트 색상 지정 */
+  padding-left: 15px;
+}
+
+.searchBtn {
+  width: 30px;
+  height: 30px;
+  right: 5px;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.searchIcon {
+  width: 20px;
+  height: 20px;
+  fill: #000; /* 아이콘 색상 지정 */
+}
+.cartBtn{
+  margin-right: 0px;
+}
+.cartBtn, .myPageBtn {
+  background: none;
+  border: none;
+  margin-left: 0px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #000; /* 텍스트 색상 지정 */
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+.cartBtn:active, .cartBtn:focus, .cartBtn:visited,
+.myPageBtn:active, .myPageBtn:focus, .myPageBtn:visited {
+  color: #000; /* 클릭했을 때 텍스트 색상 유지 */
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+.IconImg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.Top2Line {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.MenuBtnWrap {
+  display: flex;
+}
+
+.cloth {
+  padding: 10px 20px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #000; /* 텍스트 색상 지정 */
+}
+
+.cloth:hover, .cloth.active {
+  color: #000; /* 텍스트 색상 지정 */
+}
+
+
+
+
+
+  

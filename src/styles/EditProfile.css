@@ -1,0 +1,51 @@
+.edit-profile {
+    margin-left: 300px; /* 사이드바 너비 + 여백 */
+    padding: 20px;
+    padding-top: 150px; /* Header의 높이와 여백 */
+  }
+  
+  .edit-profile h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+    
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f4f4f4;
+  }
+  
+  button {
+    align-self: flex-end;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 100px;
+  }
+  

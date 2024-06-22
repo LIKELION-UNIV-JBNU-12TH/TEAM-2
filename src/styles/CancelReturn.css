@@ -1,0 +1,29 @@
+.cancel-return {
+    margin-left: 300px; /* 사이드바 너비 + 여백 */
+    padding: 20px;
+    padding-top: 150px; /* Header의 높이와 여백 */
+  }
+  
+  .cancel-return h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .cancel-return table {
+    width: 90%;
+    border-collapse: collapse;
+  }
+  
+  .cancel-return th, .cancel-return td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .cancel-return th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  
